@@ -5,12 +5,12 @@ import './App.css'
 import ChoresList from './components/ChoresList'
 import MovieList from './components/MovieList'
 import BookList from './components/BookList'
-import ShinyButton from './components/Conceptional-Demo1'
-import Rainy from './components/Conceptional-Demo2'
-import RainOrShine from './components/Conceptional-Demo3'
-import DDX from './components/Conceptional-Demo2'
-import RainOrShinee from './components/Conceptional-Demo3'
-import XDD from './components/Conceptional-Demo3'
+import ShinyButton from './components/React-Demo-1'
+import Rainy from './components/React-Demo-2'
+import RainOrShine from './components/React-Demo-3'
+import DDX from './components/React-Demo-2'
+import RainOrShinee from './components/React-Demo-3'
+import XDD from './components/React-Demo-3'
 
 function App() {
   const [count, setCount] = useState(0)
