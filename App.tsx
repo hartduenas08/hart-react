@@ -1,19 +1,29 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
-import './App.css';
-import ReactDemo1 from './components/React-Demo-1';
-import ReactDemo2 from './components/React-Demo-2';
-import ReactDemo3 from './components/React-Demo-3';
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+import ChoresList from './components/ChoresList'
+import MovieList from './components/MovieList'
+import BookList from './components/BookList'
+import ShinyButton from './components/Conceptional-Demo1'
+import Rainy from './components/Conceptional-Demo2'
+import RainOrShine from './components/Conceptional-Demo3'
+import DDX from './components/Conceptional-Demo2'
+import RainOrShinee from './components/Conceptional-Demo3'
+import XDD from './components/Conceptional-Demo3'
+
 function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0)
 
   return (
     <>
-      <ReactDemo1 />
-      <ReactDemo2 />
-      <ReactDemo3 />
-      {/*div>
+    <ShinyButton/>
+    <Rainy/>
+    <RainOrShine/>
+    <DDX/>
+    <RainOrShinee/>
+    <XDD/>
+      {/*<div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -32,9 +42,9 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p*/}
+        </p>*/}
     </>
-  );
+  )
 }
 
-export default App;
+export default App
